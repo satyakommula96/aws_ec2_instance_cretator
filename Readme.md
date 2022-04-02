@@ -6,6 +6,8 @@ This Script launches ec2 instance using native boto3.
 # Pre-requisites 
 * Ensure you install the latest version of python and requests package.
 ```
+python3 -m venv .venv
+source .venv/bin/activate
 pip3 install -r requirements.txt
 ```
 * We need IAM user access key and secret key to run this script. Please refer AWS documents to create the same (or) follow below steps.
